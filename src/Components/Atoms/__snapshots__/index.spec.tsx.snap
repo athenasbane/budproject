@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> should have the styles when props are passed to it 1`] = `
+<div
+  className=""
+  direction="row"
+>
+  Test
+</div>
+`;
+
+exports[`<Container /> should have the styles when props are passed to it 2`] = `
+<div
+  className=""
+  direction="column"
+>
+  Test
+</div>
+`;
+
+exports[`<Title /> should have the correct styles when props are passed too it 1`] = `
+<h1
+  className=""
+>
+  Test
+</h1>
+`;
+
+exports[`<Title /> should have the correct styles when props are passed too it 2`] = `
+<h1
+  className=""
+>
+  Test
+</h1>
+`;
+
+exports[`<Title /> should have the correct styles when props are passed too it 3`] = `
+<h1
+  className=""
+>
+  Test
+</h1>
+`;
