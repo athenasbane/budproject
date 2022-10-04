@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Circle /> should match snapshot 1`] = `
+<h1
+  className=""
+/>
+`;
+
 exports[`<Container /> should have the styles when props are passed to it 1`] = `
 <div
   className=""
@@ -16,6 +22,20 @@ exports[`<Container /> should have the styles when props are passed to it 2`] = 
 >
   Test
 </div>
+`;
+
+exports[`<ExpenseContainer /> should match snapshot 1`] = `
+<article
+  className=""
+>
+  Test
+</article>
+`;
+
+exports[`<LoadingSpinner /> should match snapshot 1`] = `
+<div
+  className=""
+/>
 `;
 
 exports[`<Title /> should have the correct styles when props are passed too it 1`] = `

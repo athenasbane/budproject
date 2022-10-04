@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExpenseItem /> should match snapshot 1`] = `
+<article
+  className=""
+>
+  <div
+    className=""
+    direction="row"
+  >
+    <h1
+      className=""
+    >
+      T
+    </h1>
+    <div
+      className=""
+      direction="column"
+    >
+      <h1
+        className=""
+      >
+        Tesco
+      </h1>
+      <h1
+        className=""
+      >
+        Groceries
+      </h1>
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <h1
+      className=""
+    >
+      £
+      57.21
+    </h1>
+  </div>
+</article>
+`;

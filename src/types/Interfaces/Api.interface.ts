@@ -2,7 +2,7 @@ import { CurrencyISOEnum } from '../Enum/Currency.enum';
 
 export interface IProvider {
     title: string;
-    account_number: number;
+    account_number: string;
     sort_code: string;
     description: string;
 }
@@ -22,7 +22,7 @@ export interface IApi {
     id: string;
     provider: IProvider;
     balance: {
-        amount: string;
+        amount: number;
         currency_iso: CurrencyISOEnum;
     };
     transactions: ITransaction[];

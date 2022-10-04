@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateHeader /> should match snapshot 1`] = `
+<div
+  className=""
+  direction="column"
+>
+  <h1
+    className=""
+    color="white"
+  >
+    30/06/2018
+  </h1>
+  <article
+    className=""
+  >
+    <div
+      className=""
+      direction="row"
+    >
+      <h1
+        className=""
+      >
+        T
+      </h1>
+      <div
+        className=""
+        direction="column"
+      >
+        <h1
+          className=""
+        >
+          Tesco
+        </h1>
+        <h1
+          className=""
+        >
+          Groceries
+        </h1>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <h1
+        className=""
+      >
+        £
+        57.21
+      </h1>
+    </div>
+  </article>
+</div>
+`;

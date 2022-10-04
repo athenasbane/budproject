@@ -10,17 +10,12 @@
         "@babel/preset-typescript"
     ],
     "plugins": [
-        ["babel-plugin-styled-components", { "displayNames": false }],
+        ["babel-plugin-styled-components"],
         [
             "@babel/plugin-transform-runtime",
             {
                 "regenerator": true
             }
         ]
-    ],
-    "env": {
-        "test": {
-            "plugins": [["babel-plugin-styled-components"]]
-        }
-    }
+    ]
 }

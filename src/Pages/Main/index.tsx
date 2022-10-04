@@ -7,7 +7,7 @@ import DateHeader from '../../Components/Materials/DateHeader/DateHeader';
 import styled from 'styled-components';
 import { LoadingSpinner } from '../../Components/Atoms';
 
-const ExpenseBox = styled.div`
+const ExpenseBox = styled.main`
     max-width: 1040px;
     border-radius: 15px;
     padding: 50px;
@@ -20,9 +20,13 @@ const MainPage = () => {
     const [expenses, setExpenses] = useState<ITransaction[]>();
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch(API_ENDPOINT);
-            const apiData = await response.json();
-            setExpenses(expenseFilter(apiData));
+            try {
+                const response = await fetch(API_ENDPOINT);
+                const apiData = await response.json();
+                setExpenses(expenseFilter(apiData));
+            } catch (e) {
+                alert('Sorry! We seem to be experiencing an issue right now please try again later');
+            }
         }
 
         fetchData();

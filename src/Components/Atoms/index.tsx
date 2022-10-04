@@ -29,7 +29,7 @@ export const Container = styled.div<{
     margin: ${({ marginLeft, marginBottom }) => '20px ' + '0px ' + marginBottom || 0 + 'px ' + marginLeft || 0 + 'px'};
 `;
 
-export const ExpenseContainer = styled.div`
+export const ExpenseContainer = styled.article`
     display: flex;
     flex-direction: row;
     justify-content: space-between;

@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import 'jest-styled-components';
-import { Title, Container } from './index';
+import { Title, Container, ExpenseContainer, Circle, LoadingSpinner } from './index';
 
 describe('<Title />', () => {
     it.each`
@@ -35,6 +35,30 @@ describe('<Container />', () => {
                 </Container>,
             )
             .toJSON();
+
+        expect(tree).toMatchSnapshot();
+    });
+});
+
+describe('<ExpenseContainer />', () => {
+    it('should match snapshot', () => {
+        const tree = renderer.create(<ExpenseContainer>Test</ExpenseContainer>).toJSON();
+
+        expect(tree).toMatchSnapshot();
+    });
+});
+
+describe('<Circle />', () => {
+    it('should match snapshot', () => {
+        const tree = renderer.create(<Circle />).toJSON();
+
+        expect(tree).toMatchSnapshot();
+    });
+});
+
+describe('<LoadingSpinner />', () => {
+    it('should match snapshot', () => {
+        const tree = renderer.create(<LoadingSpinner />).toJSON();
 
         expect(tree).toMatchSnapshot();
     });
