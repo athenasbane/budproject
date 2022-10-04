@@ -2,9 +2,20 @@
 
 Thank you for this opportunity! This was my first time using styled-components in React and really enjoyed using it.
 
+Given more time and experience with the tech I really believe that I could have done a better job of this.
+
+## Commands
+
+`npm start` starts the application on port 3000
+`npm build` builds the application in production mode
+`npm test` runs tests (when updating the components you may need to update the snapshots using 'npm test -- -u')
+`npm run lint` for eslinting
+`npm run format` for prettier formating
+
 # Further Improvements
 
 -   Move all snapshots into a testing folder
+-   Improve accessibility by rethinking sematic html elements I'm not sure if main then articles is the right way to go.
 -   Improve tests using .toHaveStyleRule() from styled-components
 -   Sort Babel styled component issue (the snapshots aren't pulling through the classNames which could be right since they change but seems concerning to me.)
 -   Move the API call into a state manager such as redux thunk allowing
@@ -15,3 +26,4 @@ Thank you for this opportunity! This was my first time using styled-components i
 -   Move atom components to a component library with something like Storybook stories for each
 -   Improve flexability of the components.
 -   Reduce code by expanding the styled-components using the `styled(Container)...` feature it offers
+-   I'd of loved to add a total amount for the period (date) like monzos app does
