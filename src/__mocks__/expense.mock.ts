@@ -227,7 +227,7 @@ export const mockApi = {
     ],
 };
 
-export const mockExpectExpence = [
+export const mockExpectExpense = [
     {
         id: 'c09f785b61c0fa361dc143b7331551d8b4cc58349774fae6f61d696564bbebd74db0',
         date: '2018-07-09',
